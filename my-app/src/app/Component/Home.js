@@ -24,7 +24,7 @@ function Home() {
           alt="Aditi Kumari"
          
           
-          className="rounded-full w-96 shadow-lg shadow-cyan-500 animate-pulse hover:animate-none object-cover" 
+          className="rounded-full w-96 shadow-lg shadow-cyan-300 animate-pulse hover:animate-none object-cover" 
         />
       </Box>
 
@@ -35,20 +35,20 @@ function Home() {
 
         
         <h6
-          className="text-2xl text-cyan-500 hover:animate-pulse animate-bounce leading-loose"
+          className="text-2xl text-cyan-300 hover:animate-pulse animate-bounce leading-loose"
           
         >
           Software Developer
         </h6>
         <div className="flex gap-x-8 justify-center">
           <div>
-            <button className="shadow-md shadow-cyan-500 hover:shadow-lg rounded-full hover:shadow-cyan-500 hover:scale-x-125"><a href=""><GitHub/></a></button>
+            <button className="shadow-md shadow-cyan-300 hover:shadow-lg rounded-full hover:shadow-cyan-300 hover:scale-x-125"><a href=""><GitHub/></a></button>
           </div>
           <div>
-            <button className="shadow-md shadow-cyan-500 hover:shadow-lg rounded-full hover:shadow-cyan-500 hover:scale-x-125"><a href=""><LinkedIn/></a></button>
+            <button className="shadow-md shadow-cyan-300 hover:shadow-lg rounded-full hover:shadow-cyan-300 hover:scale-x-125"><a href=""><LinkedIn/></a></button>
           </div>
           <div>
-            <button className="shadow-md shadow-cyan-500 hover:shadow-lg rounded-full hover:shadow-cyan-500 hover:scale-x-125"><a href=""><Email/></a></button>
+            <button className="shadow-md shadow-cyan-300 hover:shadow-lg rounded-full hover:shadow-cyan-300 hover:scale-x-125"><a href=""><Email/></a></button>
           </div>
         </div>
       </Box>

@@ -30,7 +30,7 @@ const WorkExperience = () => {
   return (
     <Box display="flex" className='py-20' maxWidth='800px' flexDirection="column" gap={2} margin="auto">
       {experiences.map((exp, index) => (
-        <Card key={index} sx={{ backgroundColor: "#1e1e1e", color: "white", borderRadius: 2, padding: 2 }}>
+        <Card key={index} sx={{ backgroundColor: "#1e1e1e", color: "white", borderRadius: 2, padding: 2 ,boxShadow: "0px 0px 10px #00FFFF",marginY: 2, border:"2px solid cyan" }}>
           <CardContent>
             <Box display="flex" alignItems="center" gap={1} marginBottom={1}>
               <WorkIcon sx={{ color: "cyan" }} />

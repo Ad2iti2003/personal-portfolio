@@ -6,6 +6,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import Work from './work';
 import Skill from './Skill';
 import Edu from './Edu';
+import Expfoot from './Expfoot';
 
 function Experiance() {
   return (
@@ -80,7 +81,9 @@ function Experiance() {
     <Work/>
     <Skill/>
     <Edu/>
+    <Expfoot/>
     </Container>
+    
   )
 }
 

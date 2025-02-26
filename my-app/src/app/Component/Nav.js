@@ -16,16 +16,16 @@ function Nav() {
      
     >
       
-      <div style={{ fontSize: "1.5rem", fontWeight: "bold" }} className='text-cyan-500 '>
+      <div style={{ fontSize: "1.5rem", fontWeight: "bold" }} className='text-cyan-300 '>
         Aditi's Portfolio
       </div>
 
       {/* Navigation */}
       <Box display="flex" gap={2}>
-        <Button variant="text" color='white' className=' rounded-2xl'><a href="/" className='hover:underline hover:decoration-cyan-500 hover:underline-offset-8 hover:text-slate-200'>Home</a></Button>
-        <Button variant="text" color='white' className=' rounded-2xl'><a href="/" className='hover:underline hover:decoration-cyan-500 hover:underline-offset-8 hover:text-slate-200'>About</a></Button>
-        <Button variant="text" color='white' className=' rounded-2xl'><a href="/" className='hover:underline hover:decoration-cyan-500 hover:underline-offset-8 hover:text-slate-200'>Projects</a></Button>
-        <Button variant="text" color='white' className=' rounded-2xl'><a href="/" className='hover:underline hover:decoration-cyan-500 hover:underline-offset-8 hover:text-slate-200'>Contact</a></Button>
+        <Button variant="text" color='white' className=' rounded-2xl'><a href="/" className='hover:underline hover:decoration-cyan-300 hover:underline-offset-8 hover:text-slate-200'>Home</a></Button>
+        <Button variant="text" color='white' className=' rounded-2xl'><a href="/" className='hover:underline hover:decoration-cyan-300 hover:underline-offset-8 hover:text-slate-200'>About</a></Button>
+        <Button variant="text" color='white' className=' rounded-2xl'><a href="/" className='hover:underline hover:decoration-cyan-300 hover:underline-offset-8 hover:text-slate-200'>Projects</a></Button>
+        <Button variant="text" color='white' className=' rounded-2xl'><a href="/" className='hover:underline hover:decoration-cyan-300 hover:underline-offset-8 hover:text-slate-200'>Contact</a></Button>
       </Box>
     </Box>
   );

@@ -17,7 +17,7 @@ const skills = [
 const Skill = () => {
   return (
     <Box className="py-20" display="flex" flexDirection="column" alignItems="center">
-      <Card sx={{ backgroundColor: "#1e1e1e", color: "white", borderRadius: 2, padding: 3, width: "90%", maxWidth: 600 }}>
+      <Card sx={{ backgroundColor: "#1e1e1e", color: "white", borderRadius: 2, padding: 3, width: "90%", maxWidth: 600,border:"2px cyan solid" , boxShadow:"0px 0px 10px #00FFFF" }}>
         <CardContent>
           {skills.map((skill, index) => (
             <Box key={index} display="flex" alignItems="center" gap={2} mb={2}>
